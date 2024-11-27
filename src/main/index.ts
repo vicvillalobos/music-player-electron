@@ -7,8 +7,11 @@ function createWindow(): void {
   // Create the browser window.
   const mainWindow = new BrowserWindow({
     width: 900,
+    minWidth: 400,
     height: 670,
+    minHeight: 400,
     show: false,
+    title: 'Music Player',
     titleBarOverlay: true,
     titleBarStyle: 'hidden',
     autoHideMenuBar: true,
