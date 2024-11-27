@@ -1,0 +1,32 @@
+.shell {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+
+  .titlebar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1.8rem;
+    user-select: none;
+    -webkit-app-region: drag;
+  }
+
+  .windowContent {
+    display: flex;
+    width: 100%;
+
+    .sidebar {
+      width: 200px;
+      flex-grow: 0;
+      flex-shrink: 0;
+      padding: 1rem;
+      padding-top: 2rem;
+    }
+    .mainContent {
+      flex-grow: 1;
+      background-color: #121212;
+    }
+  }
+}
