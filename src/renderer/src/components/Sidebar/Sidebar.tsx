@@ -5,7 +5,7 @@ import { IconBinoculars, IconLibrary, IconSettings, IconUser } from '@tabler/ico
 export const Sidebar = (): JSX.Element => {
   const items = [
     { icon: IconBinoculars, label: 'Discover', to: '/' },
-    { icon: IconLibrary, label: 'Library', to: '/' },
+    { icon: IconLibrary, label: 'Library', to: '/library' },
     { icon: IconUser, label: 'Profile', to: '/' },
     { icon: IconSettings, label: 'Settings', to: '/' }
   ]
